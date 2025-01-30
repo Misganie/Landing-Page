@@ -1,0 +1,53 @@
+.logo img {
+    width: 100px;
+}
+
+.header-image img {
+    width: 300px;
+}
+.header {
+    padding: 10px 200px 50px 200px;
+    background-color: #1F2937;
+    color: white;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white; /* White text */
+    padding: 10px 45px; /* Vertical and horizontal padding */
+    text-align: center; /* Center text */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
